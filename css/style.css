@@ -16,6 +16,12 @@ main {
     background-color: #000000;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 20px auto 10px;
+    display: flex;
+}
+
 /* FIRST SECTION */
 .display-options {
     padding-top: 5px;
@@ -31,4 +37,24 @@ main {
     background-color: #4a4a4a;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* SECOND SECTION */
+.web-cam {
+    width: calc(100% / 7);
+    height: 130px;
+    margin: 0 3px -8px 3px;
+    background-image: url('https://picsum.photos/200/300');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.web-cam span {
+    color: #ffffff;
+    padding: 4px 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
