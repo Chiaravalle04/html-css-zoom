@@ -4,3 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* FONT */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* REGOLE GENERALI */
+main {
+    height: 100vh;
+    background-color: #000000;
+}
+
+/* FIRST SECTION */
+.display-options {
+    padding-top: 5px;
+    padding-right: 5px;
+    text-align: end;
+}
+
+
+.display-options span {
+    color: #ffffff;
+    font-size: 10px;
+    padding: 4px 7px;
+    background-color: #4a4a4a;
+    border-radius: 5px;
+    cursor: pointer;
+}
